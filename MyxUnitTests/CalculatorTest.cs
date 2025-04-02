@@ -51,7 +51,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //ÐÀÇÍÎÑÒÜ
+        //РАЗНОСТЬ
 
         [Fact]
         public void Subtract_TwoPositiveNums()
@@ -89,7 +89,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //ÏÐÎÈÇÂÅÄÅÍÈÅ
+        //ПРОИЗВЕДЕНИЕ
         [Fact]
         public void Multiply_TwoPositiveNums()
         {
@@ -126,7 +126,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //×ÀÑÒÍÎÅ
+        //ЧАСТНОЕ
         [Fact]
         public void Divide_TwoPositiveNums()
         {
@@ -163,9 +163,9 @@ namespace MyxUnitTests
             Assert.Equal(double.PositiveInfinity, result);
         }
 
-        //ÄÎÐÎÁÍÛÅ ×ÈÑËÀ
+       //ДОРОБНЫЕ ЧИСЛА
 
-        //ÑÓÌÌÀ
+        //СУММА
 
         [Fact]
         public void Add_TwoPositiveNumsF()
@@ -203,7 +203,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //ÐÀÇÍÎÑÒÜ
+        //РАЗНОСТЬ
 
         [Fact]
         public void Subtract_TwoPositiveNumsF()
@@ -241,7 +241,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //ÏÐÎÈÇÂÅÄÅÍÈÅ
+        //ПРОИЗВЕДЕНИЕ
 
         [Fact]
         public void Multiply_TwoPositiveNumsF()
@@ -279,7 +279,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //×ÀÑÒÍÎÅ
+        //ЧАСТНОЕ
 
         [Fact]
         public void Divide_TwoPositiveNumsF()
@@ -317,9 +317,9 @@ namespace MyxUnitTests
             Assert.Equal(double.PositiveInfinity, result);
         }
 
-        //ÖÅËÛÅ È ÄÐÎÁÍÛÅ ×ÈÑËÀ
+        //ЦЕЛЫЕ И ДРОБНЫЕ ЧИСЛА
 
-        //ÑÓÌÌÀ
+        //СУММА
 
         [Fact]
         public void Add_TwoPositiveNumsM()
@@ -357,7 +357,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //ÐÀÇÍÎÑÒÜ
+        ////РАЗНОСТЬ
 
         [Fact]
         public void Subtract_TwoPositiveNumsM()
@@ -395,7 +395,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //ÏÐÎÈÇÂÅÄÅÍÈÅ
+        //ПРОИЗВЕДЕНИЕ
 
         [Fact]
         public void Multiply_TwoPositiveNumsM()
@@ -433,7 +433,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //×ÀÑÒÍÎÅ
+        //ЧАСТНОЕ
         [Fact]
         public void Divide_TwoPositiveNumsM()
         {
