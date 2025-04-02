@@ -11,8 +11,12 @@ namespace MyxUnitTests
         {
             calculator = new Calculator();
         }
+
+        //жекше вхякю
+
+        //ясллю 
         [Fact]
-        public void Add_woPositiveNums()
+        public void Add_TwoPositiveNums()
         {
             int a = 12;
             int b = 26;
@@ -318,7 +322,7 @@ namespace MyxUnitTests
         //ясллю
 
         [Fact]
-        public void Add_TwoPositiveNums()
+        public void Add_TwoPositiveNumsM()
         {
             double a = 12;
             double b = 26.5;
