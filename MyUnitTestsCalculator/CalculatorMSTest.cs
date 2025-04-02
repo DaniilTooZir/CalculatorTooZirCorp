@@ -468,7 +468,7 @@ namespace MyUnitTestsCalculator
 
         [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
-        public void Divide_ByZeroMix()
+        public void Divide_ByZeroM()
         {
             double a = 15;
             double b = 0.0;
