@@ -12,9 +12,9 @@ namespace MyxUnitTests
             calculator = new Calculator();
         }
 
-        //÷≈À€≈ ◊»—À¿
+        ////–¶–ï–õ–´–ï –ß–ò–°–õ–ê
 
-        //—”ÃÃ¿ 
+        //–°–£–ú–ú–ê 
         [Fact]
         public void Add_TwoPositiveNums()
         {
@@ -51,7 +51,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //–¿«ÕŒ—“‹
+        //√ê√Ä√á√ç√é√ë√í√ú
 
         [Fact]
         public void Subtract_TwoPositiveNums()
@@ -89,7 +89,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //œ–Œ»«¬≈ƒ≈Õ»≈
+        //√è√ê√é√à√á√Ç√Ö√Ñ√Ö√ç√à√Ö
         [Fact]
         public void Multiply_TwoPositiveNums()
         {
@@ -126,7 +126,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //◊¿—“ÕŒ≈
+        //√ó√Ä√ë√í√ç√é√Ö
         [Fact]
         public void Divide_TwoPositiveNums()
         {
@@ -163,9 +163,9 @@ namespace MyxUnitTests
             Assert.Equal(double.PositiveInfinity, result);
         }
 
-        //ƒŒ–Œ¡Õ€≈ ◊»—À¿
+        //√Ñ√é√ê√é√Å√ç√õ√Ö √ó√à√ë√ã√Ä
 
-        //—”ÃÃ¿
+        //√ë√ì√å√å√Ä
 
         [Fact]
         public void Add_TwoPositiveNumsF()
@@ -203,7 +203,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //–¿«ÕŒ—“‹
+        //√ê√Ä√á√ç√é√ë√í√ú
 
         [Fact]
         public void Subtract_TwoPositiveNumsF()
@@ -241,7 +241,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //œ–Œ»«¬≈ƒ≈Õ»≈
+        //√è√ê√é√à√á√Ç√Ö√Ñ√Ö√ç√à√Ö
 
         [Fact]
         public void Multiply_TwoPositiveNumsF()
@@ -279,7 +279,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //◊¿—“ÕŒ≈
+        //√ó√Ä√ë√í√ç√é√Ö
 
         [Fact]
         public void Divide_TwoPositiveNumsF()
@@ -317,9 +317,9 @@ namespace MyxUnitTests
             Assert.Equal(double.PositiveInfinity, result);
         }
 
-        //÷≈À€≈ » ƒ–Œ¡Õ€≈ ◊»—À¿
+        //√ñ√Ö√ã√õ√Ö √à √Ñ√ê√é√Å√ç√õ√Ö √ó√à√ë√ã√Ä
 
-        //—”ÃÃ¿
+        //√ë√ì√å√å√Ä
 
         [Fact]
         public void Add_TwoPositiveNumsM()
@@ -357,7 +357,7 @@ namespace MyxUnitTests
             Assert.Equal(a + b, result);
         }
 
-        //–¿«ÕŒ—“‹
+        //√ê√Ä√á√ç√é√ë√í√ú
 
         [Fact]
         public void Subtract_TwoPositiveNumsM()
@@ -395,7 +395,7 @@ namespace MyxUnitTests
             Assert.Equal(a - b, result);
         }
 
-        //œ–Œ»«¬≈ƒ≈Õ»≈
+        //√è√ê√é√à√á√Ç√Ö√Ñ√Ö√ç√à√Ö
 
         [Fact]
         public void Multiply_TwoPositiveNumsM()
@@ -433,7 +433,7 @@ namespace MyxUnitTests
             Assert.Equal(a * b, result);
         }
 
-        //◊¿—“ÕŒ≈
+        //√ó√Ä√ë√í√ç√é√Ö
         [Fact]
         public void Divide_TwoPositiveNumsM()
         {
